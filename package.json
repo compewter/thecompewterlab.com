@@ -2,7 +2,7 @@
   "name": "thecompewterlab",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://compewter.github.io/thecompewterlab.com/",
+  "homepage": "https://thecompewterlab.com",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
