@@ -1,19 +1,40 @@
 .App {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .App-header {
   background-color: #222;
-  height: 100px;
+  height: 120px;
   padding: 20px;
   color: white;
+  max-width: 100%;
+  margin-bottom: 30px;
 }
 
 .App-intro {
   font-size: large;
+  max-width: 50em;
+  margin: 30px auto;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .social-img {
   width: 32px;
   margin: 5px;
+}
+
+.article-list {
+  text-align: left;
+}
+
+.header-link {
+  color: white;
+}
+
+.youtube-embedded {
+  max-width: 100%;
+  margin: -5px auto 10px auto;
+  display: block;
 }
