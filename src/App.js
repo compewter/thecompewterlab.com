@@ -39,7 +39,7 @@ class App extends Component {
             <Grid.Column computer={12} mobile={16}>
               <Header>Michael Wetherald</Header>
               <p>I offer consulting services in Web Application Security and Full Stack Web Development.</p>
-              <p>If you think I can be of assistance to you, feel free to contact me at <a href="mailto:michael@thecompewterlab.com">michael@thecompewterlab.com</a> or on Twitter: <a href="https://twitter.com/thecompewterlab" target="_blank" rel="noopener noreferrer">@thecompewterlab.com</a></p>
+              <p>Have Ideas? Me too. Lets chat! Reach me at <a href="mailto:michael@thecompewterlab.com">michael@thecompewterlab.com</a> or on Twitter: <a href="https://twitter.com/thecompewterlab" target="_blank" rel="noopener noreferrer">@thecompewterlab</a></p>
             </Grid.Column>
           </Grid>
         </Container>
