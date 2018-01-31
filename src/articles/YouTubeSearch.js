@@ -22,15 +22,24 @@ class YouTubeSearch extends Component {
 
         <p>If you find this tool useful, please consider donating to help me keep it running:</p>
         <Grid>
-          <Grid.Column computer={4} mobile={16}>
-            <a href="https://paypal.me/compewter" target="_blank" rel="noopener noreferrer"><Image centered src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png" className="donation-logo" alt="paypal logo"/></a>
+          <Grid.Column computer={2} mobile={16}>
           </Grid.Column>
-          <Grid.Column computer={3} mobile={16}>
+          <Grid.Column computer={4} mobile={16}>
+            <Grid.Row style={{textAlign: "center", marginBottom: 0}}>
+              <p>Buy something on Amazon!</p>
+            </Grid.Row>
+            <a href="https://www.amazon.com/gp/yourstore/home/ref=nav_cs_ys?tag=compewterlab-20&linkCode=ur1" target="_blank" rel="noopener noreferrer"><Image centered src="/assets/images/amazon.jpg" className="donation-logo" alt="amazon logo"/></a>
+          </Grid.Column>
+          <Grid.Column computer={4} mobile={16}>
+            <Grid.Row style={{textAlign: "center", marginBottom: 0}}>
+              <p>Donate</p>
+            </Grid.Row>
+            <a href="https://paypal.me/TheCompewterLab" target="_blank" rel="noopener noreferrer"><Image centered src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png" className="donation-logo" alt="paypal logo" style={{marginBottom: 30}}/></a>
+          </Grid.Column>
+          <Grid.Column computer={4} mobile={16}>
             <Image centered src="/assets/images/bitcoin-logo.png" alt="bitcoin logo" width="200"/>
-          </Grid.Column>
-          <Grid.Column computer={4} mobile={16}>
             <Grid.Row>
-              <p>16yPawBSB1ZmQw61VptWGof2fK2hE3vbiC</p>
+              <p style={{marginTop: 5}}>16yPawBSB1ZmQw61VptWGof2fK2hE3vbiC</p>
             </Grid.Row>
             <Grid.Row>
               <Image centered src="/assets/images/bitcoin-qr.jpg" height="100" alt="bitcoin qr code" style={{margin: '10px auto 20px auto'}} />
