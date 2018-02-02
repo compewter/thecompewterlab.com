@@ -7,7 +7,7 @@ class YouTubeSearch extends Component {
     return (
       <Container>
         <p>I’ve been spending a lot of time lately watching lengthy YouTube videos of lectures, interviews, guides etc. I’ve repeatedly found myself thinking about topics discussed hours later and wishing I remembered where exactly in the video they were discussing that topic. It’s also useful to skip ahead to the relevant part of videos I haven’t seen.</p>
-        <p>To help solve these problems (and surely others) I’ve built a simple <a href="https://storage.googleapis.com/youtube-caption-search/index.html" target="_blank" rel="noopener noreferrer">YouTube Caption Search</a> tool which will search for keywords in the captions of a YouTube video and provide you with a timestamped link to the video at that time.</p>
+        <p>To help solve these problems (and surely others) I’ve built a simple <a href="https://yts.thecompewterlab.com/index.html" target="_blank" rel="noopener">YouTube Caption Search</a> tool which will search for keywords in the captions of a YouTube video and provide you with a timestamped link to the video at that time.</p>
 
         <b>How-to:</b>
         <List ordered>
@@ -28,13 +28,13 @@ class YouTubeSearch extends Component {
             <Grid.Row style={{textAlign: "center", marginBottom: 0}}>
               <p>Buy something on Amazon!</p>
             </Grid.Row>
-            <a href="https://www.amazon.com/gp/yourstore/home/ref=nav_cs_ys?tag=compewterlab-20&linkCode=ur1" target="_blank" rel="noopener noreferrer"><Image centered src="/assets/images/amazon.jpg" className="donation-logo" alt="amazon logo"/></a>
+            <a href="https://www.amazon.com/gp/yourstore/home/ref=nav_cs_ys?tag=compewterlab-20&linkCode=ur1" target="_blank" rel="noopener"><Image centered src="/assets/images/amazon.jpg" className="donation-logo" alt="amazon logo"/></a>
           </Grid.Column>
           <Grid.Column computer={4} mobile={16}>
             <Grid.Row style={{textAlign: "center", marginBottom: 0}}>
               <p>Donate</p>
             </Grid.Row>
-            <a href="https://paypal.me/TheCompewterLab" target="_blank" rel="noopener noreferrer"><Image centered src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png" className="donation-logo" alt="paypal logo" style={{marginBottom: 30}}/></a>
+            <a href="https://paypal.me/TheCompewterLab" target="_blank" rel="noopener"><Image centered src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png" className="donation-logo" alt="paypal logo" style={{marginBottom: 30}}/></a>
           </Grid.Column>
           <Grid.Column computer={4} mobile={16}>
             <Image centered src="/assets/images/bitcoin-logo.png" alt="bitcoin logo" width="200"/>
